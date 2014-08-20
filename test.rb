@@ -1,8 +1,7 @@
-def some_method(number)
-  number = 7
+def scream(words)
+  words = words + "!!!!"
+
+  puts words
 end
 
-
-a = 5
-some_method(a)
-puts a
+scream("Yippeee")
